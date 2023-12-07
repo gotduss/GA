@@ -1,0 +1,28 @@
+.product-filter {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.filter-category {
+    margin-right: 30px;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #274C77;
+    color: #FFFFFF;
+    border: 0;
+    text-transform: capitalize;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.filter-category:last-child {
+    margin-right: 0;
+}
+
+.filter-category:hover,
+.filter-category.active {
+    background-color: #6096ba;
+}

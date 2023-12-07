@@ -1,0 +1,117 @@
+.product-item {
+    flex: 0 0 auto;
+    border-right: 1px solid #e7ecef;
+    border-bottom: 1px solid #e7ecef;
+}
+
+.product-item:first-child {
+    border-right: 1px solid #e7ecef;
+    border-top: 1px solid #e7ecef;
+}
+
+.product-item:nth-child(n + 1) {
+    border-left: 1px solid #e7ecef;
+}
+
+.img {
+    position: relative;
+    padding: 10px 0;
+}
+
+.content {
+    padding: 15px;
+    border-top: 1px dashed #e7ecef;
+}
+
+.category {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5px 15px;
+    background-color: #8B8C89;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-top: 1px solid #e7ecef;
+    border-left: 1px solid #e7ecef;
+    text-transform: capitalize;
+}
+
+.cart-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    color: #E5383B;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #274C77;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    background-color: #6096ba;
+}
+
+@media (min-width: 576px) {
+    .product-item {
+        width: 50%;
+    }
+
+    .product-item:nth-child(n + 1) {
+        border-left: 0;
+    }
+    
+    .product-item:nth-child(2n + 1) {
+        border-left: 1px solid #e7ecef;
+    }
+
+    .product-item:nth-child(-n + 2) {
+        border-top: 1px solid #e7ecef;
+    }
+}
+
+@media (min-width: 768px) {
+    .product-item {
+        width: calc(100% / 3);
+    }
+    
+    .product-item:nth-child(2n + 1) {
+        border-left: 0;
+    }
+    
+    .product-item:nth-child(3n + 1) {
+        border-left: 1px solid #e7ecef;
+    }
+
+    .product-item:nth-child(-n + 3) {
+        border-top: 1px solid #e7ecef;
+    }
+}
+
+@media (min-width: 1200px) {
+    .product-item {
+        width: 25%;
+    }
+    
+    .product-item:nth-child(3n + 1) {
+        border-left: 0;
+    }
+
+    .product-item:nth-child(4n + 1) {
+        border-left: 1px solid #e7ecef;
+    }
+
+    .product-item:nth-child(-n + 4) {
+        border-top: 1px solid #e7ecef;
+    }
+}

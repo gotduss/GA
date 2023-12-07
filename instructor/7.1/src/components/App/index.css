@@ -1,0 +1,18 @@
+.big-heading {
+  font-weight: bold;
+  font-size: 24pt;
+}
+
+.medium-heading {
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.popup-content {
+  position: absolute;
+  left: 20px;
+  box-sizing: border-box;
+  padding: 10px 40px;
+  background-color: lightblue;
+  border: 1px solid navy;
+}

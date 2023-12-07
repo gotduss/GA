@@ -1,0 +1,25 @@
+.products-price-sort {
+    margin-top: 30px;
+}
+
+.products-price-sort label {
+    padding-right: 8px;
+    font-weight: 500;
+}
+
+.products-price-sort select {
+    height: 45px;
+    padding: 5px 10px;
+    border: 2px solid #274C77;
+}
+
+.products-price-sort select:hover,
+.products-price-sort select:focus {
+    border-color: #6096ba;
+}
+
+@media (min-width: 768px) {
+    .products-price-sort {
+        margin-top: 0;
+    }
+}

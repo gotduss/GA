@@ -1,0 +1,9 @@
+.happiness-picker {
+    display: flex;
+}
+
+.total-score {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}

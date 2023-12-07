@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .weather-forecast {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

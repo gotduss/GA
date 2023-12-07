@@ -1,0 +1,21 @@
+.todo-add-form input {
+    width: 65%;
+    height: 50px;
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    color: #725752;
+    border: 1px solid #d3a588;
+    border-right: 0;
+    border-radius: 12px 0 0 12px;
+}
+
+.todo-add-form button {
+    width: 35%;
+    height: 50px;
+    padding: 5px 20px;
+    background-color: #d3a588;
+    color: #ece2d0;
+    border: 1px solid #d3a588;
+    border-radius: 0 12px 12px 0;
+    text-transform: uppercase;
+}
